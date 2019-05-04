@@ -71,9 +71,9 @@
 			children = (
 				3B26A508227B721600B3527A /* main.m */,
 				3B26A52B227DBE0C00B3527A /* 1 Two Sum    */,
+				3B26A52C227DBE3200B3527A /* 3 Longest Substring Without Repeating Characters */,
 				3B26A529227DBDCC00B3527A /* 20 Valid Parentheses     */,
 				3B26A52A227DBDEB00B3527A /* 49 Group Anagrams     */,
-				3B26A52C227DBE3200B3527A /* 3 Longest Substring Without Repeating Characters */,
 			);
 			path = "DSA-ObjC";
 			sourceTree = "<group>";

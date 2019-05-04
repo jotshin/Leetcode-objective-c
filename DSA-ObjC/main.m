@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Solution1.h"
+#import "Solution3.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"%@", [Solution1 sumOfNumbersFromNumbers:@[@2, @7, @11, @15] target:@17]);
+        NSLog(@"result: %@", [Solution3 lengthOfLongestSubstring:@"pwwkew"]);
     }
     return 0;
 }

@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Solution3 : NSObject
 
++ (NSNumber *)lengthOfLongestSubstring:(NSString *)string;
+
 @end
 
 NS_ASSUME_NONNULL_END

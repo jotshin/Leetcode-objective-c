@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B03AA28227F17530078E912 /* Solution289.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03AA27227F17530078E912 /* Solution289.m */; };
+		3B03AA35228025F80078E912 /* Solution55.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03AA34228025F80078E912 /* Solution55.m */; };
 		3B26A509227B721600B3527A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B26A508227B721600B3527A /* main.m */; };
 		3B26A513227B722F00B3527A /* Solution1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B26A50F227B722F00B3527A /* Solution1.m */; };
 		3B26A514227B722F00B3527A /* Solution49.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B26A510227B722F00B3527A /* Solution49.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		3B03AA26227F17530078E912 /* Solution289.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution289.h; sourceTree = "<group>"; };
 		3B03AA27227F17530078E912 /* Solution289.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution289.m; sourceTree = "<group>"; };
+		3B03AA33228025F80078E912 /* Solution55.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution55.h; sourceTree = "<group>"; };
+		3B03AA34228025F80078E912 /* Solution55.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution55.m; sourceTree = "<group>"; };
 		3B26A505227B721600B3527A /* DSA-ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA-ObjC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B26A508227B721600B3527A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B26A50F227B722F00B3527A /* Solution1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Solution1.m; sourceTree = "<group>"; };
@@ -53,13 +56,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B03AA29227F175F0078E912 /* 289 Game of Life   */ = {
+		3B03AA29227F175F0078E912 /* 289. Game of Life   */ = {
 			isa = PBXGroup;
 			children = (
 				3B03AA26227F17530078E912 /* Solution289.h */,
 				3B03AA27227F17530078E912 /* Solution289.m */,
 			);
-			path = "289 Game of Life  ";
+			path = "289. Game of Life  ";
+			sourceTree = "<group>";
+		};
+		3B03AA36228025FE0078E912 /* 55. Jump Game */ = {
+			isa = PBXGroup;
+			children = (
+				3B03AA33228025F80078E912 /* Solution55.h */,
+				3B03AA34228025F80078E912 /* Solution55.m */,
+			);
+			path = "55. Jump Game";
 			sourceTree = "<group>";
 		};
 		3B26A4FC227B721600B3527A = {
@@ -82,49 +94,50 @@
 			isa = PBXGroup;
 			children = (
 				3B26A508227B721600B3527A /* main.m */,
-				3B03AA29227F175F0078E912 /* 289 Game of Life   */,
-				3B26A52B227DBE0C00B3527A /* 1 Two Sum    */,
-				3B26A52C227DBE3200B3527A /* 3 Longest Substring Without Repeating Characters */,
-				3B26A529227DBDCC00B3527A /* 20 Valid Parentheses     */,
-				3B26A52A227DBDEB00B3527A /* 49 Group Anagrams     */,
+				3B03AA36228025FE0078E912 /* 55. Jump Game */,
+				3B03AA29227F175F0078E912 /* 289. Game of Life   */,
+				3B26A52B227DBE0C00B3527A /* 1. Two Sum    */,
+				3B26A52C227DBE3200B3527A /* 3. Longest Substring Without Repeating Characters */,
+				3B26A529227DBDCC00B3527A /* 20. Valid Parentheses     */,
+				3B26A52A227DBDEB00B3527A /* 49. Group Anagrams     */,
 			);
 			path = "DSA-ObjC";
 			sourceTree = "<group>";
 		};
-		3B26A529227DBDCC00B3527A /* 20 Valid Parentheses     */ = {
+		3B26A529227DBDCC00B3527A /* 20. Valid Parentheses     */ = {
 			isa = PBXGroup;
 			children = (
 				3B26A523227DA24100B3527A /* Solution20.h */,
 				3B26A524227DA24100B3527A /* Solution20.m */,
 			);
-			path = "20 Valid Parentheses    ";
+			path = "20. Valid Parentheses    ";
 			sourceTree = "<group>";
 		};
-		3B26A52A227DBDEB00B3527A /* 49 Group Anagrams     */ = {
+		3B26A52A227DBDEB00B3527A /* 49. Group Anagrams     */ = {
 			isa = PBXGroup;
 			children = (
 				3B26A511227B722F00B3527A /* Solution49.h */,
 				3B26A510227B722F00B3527A /* Solution49.m */,
 			);
-			path = "49 Group Anagrams    ";
+			path = "49. Group Anagrams    ";
 			sourceTree = "<group>";
 		};
-		3B26A52B227DBE0C00B3527A /* 1 Two Sum    */ = {
+		3B26A52B227DBE0C00B3527A /* 1. Two Sum    */ = {
 			isa = PBXGroup;
 			children = (
 				3B26A512227B722F00B3527A /* Solution1.h */,
 				3B26A50F227B722F00B3527A /* Solution1.m */,
 			);
-			path = "1 Two Sum   ";
+			path = "1. Two Sum   ";
 			sourceTree = "<group>";
 		};
-		3B26A52C227DBE3200B3527A /* 3 Longest Substring Without Repeating Characters */ = {
+		3B26A52C227DBE3200B3527A /* 3. Longest Substring Without Repeating Characters */ = {
 			isa = PBXGroup;
 			children = (
 				3B26A526227DBDB300B3527A /* Solution3.h */,
 				3B26A527227DBDB300B3527A /* Solution3.m */,
 			);
-			path = "3 Longest Substring Without Repeating Characters";
+			path = "3. Longest Substring Without Repeating Characters";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +199,7 @@
 				3B03AA28227F17530078E912 /* Solution289.m in Sources */,
 				3B26A514227B722F00B3527A /* Solution49.m in Sources */,
 				3B26A513227B722F00B3527A /* Solution1.m in Sources */,
+				3B03AA35228025F80078E912 /* Solution55.m in Sources */,
 				3B26A528227DBDB300B3527A /* Solution3.m in Sources */,
 				3B26A525227DA24100B3527A /* Solution20.m in Sources */,
 				3B26A509227B721600B3527A /* main.m in Sources */,

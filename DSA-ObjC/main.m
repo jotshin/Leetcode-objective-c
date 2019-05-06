@@ -7,24 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Solution289.h"
+#import "Solution55.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
 //        NSLog(@"result: %@", [Solution3 lengthOfLongestSubstring:@"pwwkew"]);
-        NSMutableArray *row1 = [NSMutableArray arrayWithArray:@[@0,@1,@0]];
-        NSMutableArray *row2 = [NSMutableArray arrayWithArray:@[@0,@0,@1]];
-        NSMutableArray *row3 = [NSMutableArray arrayWithArray:@[@1,@1,@1]];
-        NSMutableArray *row4 = [NSMutableArray arrayWithArray:@[@0,@0,@0]];
-        NSMutableArray<NSMutableArray<NSNumber *> *> *array = [NSMutableArray arrayWithArray:@[
-                                                                                               row1,
-                                                                                               row2,
-                                                                                               row3,
-                                                                                               row4
-                                                                                               ]];
-        [Solution289 gameOfLifeWithBoard:array];
-        NSLog(@"result: %@", array);
+
+        NSLog(@"result: %@", [Solution55 canJumpWithNumbers:@[@1,@1,@1,@1,@1,@1,@1,@1,@1,@1]] ? @"YES" : @"NO");
     }
     return 0;
 }
